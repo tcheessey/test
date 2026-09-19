@@ -3,7 +3,12 @@
         "characters": [{"key":"felix","x":270}],
         "dialogues":{
             "entry":[
-                {"character":"Félix","text":"Congratulations, kid."},
+                {"character":"Félix","text":"Congratulations, kid.","options":[
+                    {"text":"1","response":[{"text":"1"}]},
+                    {"text":"10","response":[{"text":"10"}]},
+                    {"text":"1000","response":[{"text":"1000"}]},
+                    {"text":"100000000","response":[{"text":"100000000"}]}
+                ]},
                 {"character":"Félix","text":"Your first shift where nobody should come in wanting to discuss the bloody organ, confess what they did to it, or explain why technically it wasn't their fault."},
                 {"character":"Félix","text":"Things were still a little heated after Mass yesterday, but I think the town's finally exhausted itself."},
                 {"character":"Félix","text":"Now, as for another duty that had absolutely nothing to do with running a tobacconist...","onComplete":"tooth"}

@@ -14,20 +14,12 @@
                 { "text": "[To ring up the total, enter the price on the till, then drag the lever down.]" },
                 { "text": "[Count the customer's money, then click on the right banknotes and coins to give them their change.]" },
                 { "text": "[Click on the [...] button to talk to the customer or ask them to remind or explain their order.]" },
+                { "text": "[You can find this anytime in ⚙ Help.]" },
                 { "character": "Félix", "text": "Let's try it out. Sell me a tin of Morley.", "faces": {"felix":"he"}}
-            ],
-            "howto":[
-                { "text": "[Click on an item to read its description. Drag it into the bag to add it to the purchase.]" },
-                { "text": "[To ring up the total, enter the price on the till, then drag the lever down.]" },
-                { "text": "[Count the customer's money, then click on the right banknotes and coins to give them their change.]" },
-                { "text": "[Click on the ? button to talk to the customer or ask them to remind or explain their order.]" }
             ],
             "wrong_items": [{ "character": "Félix", "text": "That's not what I asked for. Try again.", "flag":"st1", "onComplete":"click" }],
             "wrong_price": [{ "character": "Félix", "text": "Right stuff, wrong number. Do the math again.", "flag":"st1" }],
-            "click":[{ "character": "Félix", "text": "A tin of Morley tobacco. In the bag, on the till, then the lever.","options":[
-                {"text":"[Show detailed instructions]","event":"howto"},
-                {"text":"..."}
-            ]}],
+            "click":[{ "character": "Félix", "text": "A tin of Morley tobacco. In the bag, on the till, then the lever."}],
             "wrong_change_under":[{ "character": "Félix", "text": "Careful, short-changing is a skill. You clearly don't have it yet.","faces":{"felix":"he"}}],
             "wrong_change_over":[{ "character": "Félix", "text": "You're being generous. That's too much."}],
             "checkout":[{ "character": "Félix", "text": "See? Easy enough.","onComplete":"scene_end"}],
