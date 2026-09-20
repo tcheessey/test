@@ -1,17 +1,1 @@
-{ "frames": [
-  {
-    "frame": {"x": 0, "y": 0, "w": 298, "h": 549},
-    "filename": "mado2",
-    "x": 225, "y": 171
-  },
-  {
-    "frame": {"x": 0, "y": 549, "w": 131, "h": 61},
-    "filename": "mado2_blush",
-    "x": 96, "y": 92
-  },
-  {
-    "frame": {"x": 131, "y": 549, "w": 131, "h": 61},
-    "filename": "mado2_grr",
-    "x": 116, "y": 82
-  }
-]}
+{"frames":[{"frame":{"x":0,"y":0,"w":298,"h":549},"filename":"mado2","x":225,"y":171},{"frame":{"x":0,"y":549,"w":131,"h":61},"filename":"mado2_blush","x":96,"y":92},{"frame":{"x":131,"y":549,"w":131,"h":61},"filename":"mado2_grr","x":116,"y":82}]}

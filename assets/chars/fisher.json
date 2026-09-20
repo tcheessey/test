@@ -1,17 +1,1 @@
-{ "frames": [
-  {
-    "frame": {"x": 0, "y": 0, "w": 399, "h": 661},
-    "filename": "fisher",
-    "x": 180, "y": 59
-  },
-  {
-    "frame": {"x": 0, "y": 661, "w": 111, "h": 30},
-    "filename": "fisher_eyes",
-    "x": 139, "y": 84
-  },
-  {
-    "frame": {"x": 111, "y": 661, "w": 78, "h": 30},
-    "filename": "fisher_smile",
-    "x": 157, "y": 142
-  }
-]}
+{"frames":[{"frame":{"x":0,"y":0,"w":399,"h":661},"filename":"fisher","x":180,"y":59},{"frame":{"x":0,"y":661,"w":111,"h":30},"filename":"fisher_eyes","x":139,"y":84},{"frame":{"x":111,"y":661,"w":78,"h":30},"filename":"fisher_smile","x":157,"y":142}]}
